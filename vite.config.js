@@ -6,17 +6,10 @@ export default defineConfig({
     css: {
         postcss: './postcss.config.js',
     },
-    base: './',
+    base: '/',
     build: {
         outDir: 'docs',
         sourcemap: false,
-        rollupOptions: {
-            output: {
-                format: 'iife',
-                entryFileNames: 'assets/[name]-[hash].js',
-                chunkFileNames: 'assets/[name]-[hash].js',
-                assetFileNames: 'assets/[name]-[hash].[ext]'
-            }
-        }
+        assetsDir: 'assets',
     },
 });
