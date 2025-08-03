@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 VibeChat - Modern Dating App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 40px 20px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: white;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .feature h3 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+        
+        .feature p {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.6;
+        }
+        
+        .demo-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 30px auto;
+            max-width: 500px;
+            text-align: center;
+        }
+        
+        .demo-btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+        
+        .demo-btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .cta-btn {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 10px;
+            margin: 10px;
+            font-weight: 600;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .cta-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .logo { font-size: 3rem; }
+            .features { grid-template-columns: 1fr; }
+            .demo-section { margin: 20px 10px; padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">💕</div>
+            <h1>VibeChat</h1>
+            <p class="subtitle">Modern Dating App with Real-Time Features</p>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>🔐 Email Verification</h3>
+                <p>Secure authentication with email verification. Only real users can join.</p>
+            </div>
+            <div class="feature">
+                <h3>💬 Real-Time Chat</h3>
+                <p>Instant messaging powered by Firebase. Messages delivered in real-time.</p>
+            </div>
+            <div class="feature">
+                <h3>📹 Video Calling</h3>
+                <p>HD video calls using WebRTC technology. Connect face-to-face with matches.</p>
+            </div>
+            <div class="feature">
+                <h3>🎯 Smart Matching</h3>
+                <p>Gender-based filtering for better matches and meaningful connections.</p>
+            </div>
+        </div>
+        
+        <div class="demo-section">
+            <h2>Try VibeChat Demo</h2>
+            <p style="margin: 20px 0; color: #666;">Experience the features of our dating app</p>
+            <button class="demo-btn" onclick="showDemo()">💕 Join Demo</button>
+            <button class="demo-btn" onclick="showVideo()">📹 Video Call Demo</button>
+        </div>
+        
+        <div class="cta">
+            <h2 style="color: white; margin-bottom: 20px;">Ready to Connect?</h2>
+            <a href="https://github.com/faisal12985/chitkaro" class="cta-btn">⭐ View on GitHub</a>
+            <a href="mailto:faisal12985@gmail.com" class="cta-btn">📧 Contact Developer</a>
+        </div>
+    </div>
+    
+    <script>
+        function showDemo() {
+            alert('🎉 VibeChat Demo!\n\n✅ Email verification active\n💬 Real-time chat ready\n🎯 Smart matching enabled\n📱 Mobile responsive\n\n🚀 Full app coming soon!');
+        }
+        
+        function showVideo() {
+            alert('📹 Video Call Feature\n\n🎥 HD video quality\n🎵 Clear audio\n📱 Works on all devices\n🔒 Privacy protected\n\n✨ Ready to connect with matches!');
+        }
+    </script>
+</body>
+</html>
