@@ -1,22 +1,46 @@
-# ✨ VibeChat
+# 💕 VibeChat - Real-Time Dating App
 
-A modern real-time chat application built with React, TypeScript, Firebase, and Tailwind CSS.
+A modern, feature-rich dating application built with React, TypeScript, and Firebase. Connect with compatible matches through real-time messaging and video calls!
 
-![VibeChat](https://img.shields.io/badge/VibeChat-Live%20Chat%20App-blue)
+![VibeChat](https://img.shields.io/badge/VibeChat-Dating%20App-pink)
 ![React](https://img.shields.io/badge/React-18.0-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
-![Firebase](https://img.shields.io/badge/Firebase-10.0-orange)
+![Firebase](https://img.shields.io/badge/Firebase-12.0-orange)
 ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-cyan)
+![WebRTC](https://img.shields.io/badge/WebRTC-Video%20Calls-green)
 
-## 🚀 Features
+## ✨ Features
 
-- ✅ **Real-time messaging** with Firebase Firestore
-- 👥 **User authentication** (signup/login)
-- 🟢 **Online/offline status** tracking
-- 💬 **One-to-one conversations**
-- 📱 **Responsive mobile design**
-- ⚡ **Instant message delivery**
-- 🔐 **Secure Firebase authentication**
+### 🔐 Secure Authentication
+- **Email verification required** - Only real email addresses can join
+- **OTP verification system** - Prevents fake account creation
+- **Secure Firebase authentication**
+- **Password protection** with validation
+
+### 👥 Smart Matching System
+- **Gender-based filtering** - Males see females and vice versa
+- **Age-based profiles** - Users must be 18+ to join
+- **Smart compatibility matching**
+- **Real-time online status**
+
+### 💬 Real-Time Messaging
+- **Instant messaging** with Firebase Firestore
+- **Message timestamps** and read receipts
+- **Emoji support** and rich text
+- **Chat history persistence**
+
+### � Video Calling (NEW!)
+- **Real WebRTC video calls** - No demo mode!
+- **Camera and microphone controls**
+- **Picture-in-picture display**
+- **High-quality video streaming**
+- **Call management** (accept/reject/end)
+
+### 🎨 Modern UI/UX
+- **Beautiful gradient design** with pink/purple theme
+- **Responsive design** - Works on all devices
+- **Smooth animations** and transitions
+- **Professional dating app interface**
 
 ## 🛠️ Tech Stack
 

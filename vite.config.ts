@@ -7,7 +7,7 @@ export default defineConfig({
   css: {
     postcss: './postcss.config.js',
   },
-  base: '/',
+  base: '/vibechat/',
   build: {
     outDir: 'dist',
     sourcemap: false,

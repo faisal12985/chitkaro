@@ -75,7 +75,6 @@ interface VideoCall {
 function App() {
   const [user, setUser] = useState<FirebaseUser | null>(null);
   const [currentUser, setCurrentUser] = useState<ChatUser | null>(null);
-  const [users, setUsers] = useState<ChatUser[]>([]);
   const [filteredUsers, setFilteredUsers] = useState<ChatUser[]>([]);
   const [activeChat, setActiveChat] = useState<string | null>(null);
   const [messages, setMessages] = useState<Message[]>([]);
@@ -159,7 +158,6 @@ function App() {
         }
       });
 
-      setUsers(otherUsers);
       setFilteredUsers(filtered);
     });
 
