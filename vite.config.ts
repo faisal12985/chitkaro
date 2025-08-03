@@ -7,9 +7,9 @@ export default defineConfig({
   css: {
     postcss: './postcss.config.js',
   },
-  base: '/chitkaro/',
+  base: './',
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     sourcemap: false,
   },
 })
